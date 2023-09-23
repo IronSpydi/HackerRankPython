@@ -10,8 +10,8 @@ Given an integer, n, perform the following conditional actions:
 
 def odd(n):
     return True if n%2!=0 else False
-# def even(n):
-#     return True if n%2==0 else False
+def even(n):
+    return True if n%2==0 else False
 
 if __name__ == '__main__':
     n = int(input().strip())
